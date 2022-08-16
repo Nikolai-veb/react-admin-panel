@@ -1,0 +1,97 @@
+import React from "react"
+//interface HeaderCatProps {}
+
+const HeaderChat = () => (
+  <li className="nav-item dropdown">
+    <a
+      className="nav-link nav-icon"
+      href="index.html"
+      data-bs-toggle="dropdown"
+    >
+      <i className="bi bi-chat-left-text"></i>
+      <span className="badge bg-success badge-number">3</span>
+    </a>
+    <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+      <li className="dropdown-header">
+        You have 3 new messages
+        <a href="index.html">
+          <span className="badge rounded-pill bg-primary p-2 ms-2">
+            View all
+          </span>
+        </a>
+      </li>
+      <li>
+        <hr className="dropdown-divider"></hr>
+      </li>
+
+      <li className="message-item">
+        <a href="index.html">
+          <img
+            src="assets/img/messages-1.jpg"
+            alt=""
+            className="rounded-circle"
+          ></img>
+          <div>
+            <h4>Maria Hudson</h4>
+            <p>
+              Velit asperiores et ducimus soluta repudiandae labore officia est
+              ut...
+            </p>
+            <p>4 hrs. ago</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <hr className="dropdown-divider"></hr>
+      </li>
+
+      <li className="message-item">
+        <a href="index.html">
+          <img
+            src="assets/img/messages-2.jpg"
+            alt=""
+            className="rounded-circle"
+          ></img>
+          <div>
+            <h4>Anna Nelson</h4>
+            <p>
+              Velit asperiores et ducimus soluta repudiandae labore officia est
+              ut...
+            </p>
+            <p>6 hrs. ago</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <hr className="dropdown-divider"></hr>
+      </li>
+
+      <li className="message-item">
+        <a href="index.html">
+          <img
+            src="assets/img/messages-3.jpg"
+            alt=""
+            className="rounded-circle"
+          ></img>
+          <div>
+            <h4>David Muldon</h4>
+            <p>
+              Velit asperiores et ducimus soluta repudiandae labore officia est
+              ut...
+            </p>
+            <p>8 hrs. ago</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <hr className="dropdown-divider"></hr>
+      </li>
+
+      <li className="dropdown-footer">
+        <a href="index.html">Show all messages</a>
+      </li>
+    </ul>
+  </li>
+)
+
+export default HeaderChat
